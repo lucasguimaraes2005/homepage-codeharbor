@@ -1,0 +1,42 @@
+.homesection {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    margin-top: 6%;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+
+    div {
+        width: 50%;
+
+        h1 {
+            font-family: var(--font-family);
+            color: var(--white);
+            font-size: 2.1875rem;
+            font-weight: bold;
+        }
+
+
+        p {
+            font-family: var(--font-family);
+            color: #d3d3d3;
+            margin-top: 2%;
+        }
+    }
+    img {
+        height: 500px;
+        transition: transform 0.3s ease;
+    }
+
+    img:hover {
+        transform: scale(1.2);
+      }
+
+
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+  }
