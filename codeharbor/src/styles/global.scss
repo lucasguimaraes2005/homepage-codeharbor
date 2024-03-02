@@ -1,0 +1,19 @@
+:root {
+    --success: #3FE864;
+    --negative: #E83F5B;
+
+    --color-primary : #006e99;
+    --color-secundary: #0780ac;
+    --color-theme: #0d192b;
+
+    --blue-1: #1ab5e3;
+    --blue-2: #14a3d1;
+    --blue-3: #0d92be;
+
+    --white: white;
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--color-theme);
+}
